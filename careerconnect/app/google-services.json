@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "426508624072",
+    "firebase_url": "https://careerconnect-4a2ba-default-rtdb.firebaseio.com",
+    "project_id": "careerconnect-4a2ba",
+    "storage_bucket": "careerconnect-4a2ba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426508624072:android:392aaeb663413ba09045fd",
+        "android_client_info": {
+          "package_name": "vcmsa.projects.careerconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426508624072-a4brqv96rcgni224qdpbpndt20amtsbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vcmsa.projects.careerconnect",
+            "certificate_hash": "2d9e231809d1504349796a0b6407dca1d41df12d"
+          }
+        },
+        {
+          "client_id": "426508624072-iua1b28m8qfddv0rtv7pngr6md503fus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vcmsa.projects.careerconnect",
+            "certificate_hash": "b4f81877c70cc3dd4b96d2481a0c897718ce0cc1"
+          }
+        },
+        {
+          "client_id": "426508624072-ge2q5fncp6helqfqs1kbvtb7ghcanlhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2PKbTDjOlgpOoIpaoMYIsoQxrC3NpcUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426508624072-ge2q5fncp6helqfqs1kbvtb7ghcanlhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

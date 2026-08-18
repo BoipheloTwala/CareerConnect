@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--CODE ATTRIBUTION
+01
+Dark Theme Resources
+Adapted from: Android Developers. (2025). Dark theme. [online] Android Developers.
+Available at: https://developer.android.com/develop/ui/views/theming/darktheme
+Date Accessed: 15 November 2025
+
+02
+Material Design 3 Dark Themes
+Adapted from: Material Design. (2025). Dark theme. [online] Material Design.
+Available at: https://m3.material.io/styles/color/dark-theme
+Date Accessed: 15 November 2025
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CareerConnect" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

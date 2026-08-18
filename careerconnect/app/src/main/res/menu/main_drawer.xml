@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--CODE ATTRIBUTION
+01
+Navigation Menu Resources
+Adapted from: Android Developers. (2025). Menus. [online] Android Developers.
+Available at: https://developer.android.com/develop/ui/views/components/menus
+Date Accessed: 15 November 2025
+
+02
+Navigation Drawer
+Adapted from: Android Developers. (2025). Navigation drawer. [online] Android Developers.
+Available at: https://developer.android.com/develop/ui/views/layout/drawer
+Date Accessed: 15 November 2025
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_jobs"
+            android:title="@string/all_jobs_title" />
+        <item
+            android:id="@+id/nav_bookmarked_jobs"
+            android:title="@string/bookmarked_jobs_title" />
+        <item
+            android:id="@+id/nav_job_posting"
+            android:title="@string/job_posting_title" />
+        <item
+            android:id="@+id/nav_job_applications"
+            android:title="@string/job_applications_title" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/settings_title" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>
+
+
+

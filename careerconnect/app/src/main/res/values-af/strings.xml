@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--CODE ATTRIBUTION
+01
+String Resources (Afrikaans Translation)
+Adapted from: Android Developers. (2025). Localize your app. [online] Android Developers.
+Available at: https://developer.android.com/guide/topics/resources/localization
+Date Accessed: 15 November 2025
+
+02
+String Resources
+Adapted from: Android Developers. (2025). String Resources. [online] Android Developers.
+Available at: https://developer.android.com/guide/topics/resources/string-resource
+Date Accessed: 15 November 2025
+-->
+<resources>
+    <string name="app_name">CareerConnect</string>
+    <!-- Web Client ID from google-services.json for Google Sign-In -->
+    <string name="default_web_client_id">426508624072-ge2q5fncp6helqfqs1kbvtb7ghcanlhj.apps.googleusercontent.com</string>
+
+    <!-- User authentication strings -->
+    <string name="signed_in_as">Aangemeld as: %1$s</string>
+    <string name="not_signed_in">Nie aangemeld nie</string>
+
+    <!-- Permission and notification strings -->
+    <string name="requesting_notifications_permission">Vra kennisgewings toestemming</string>
+    <string name="fetching_fcm_token">Haal FCM token…</string>
+    <string name="token_logged_to_logcat">Token aangeteken by Logcat</string>
+    <string name="failed_to_get_token">Kon nie token kry nie</string>
+
+    <!-- Upload strings -->
+    <string name="pick_pdf_to_upload">Kies \'n PDF om op te laai</string>
+    <string name="please_sign_in_first">Meld asseblief eers aan</string>
+    <string name="upload_started">Oplaai begin…</string>
+    <string name="cv_uploaded_successfully">CV suksesvol opgelaai!</string>
+    <string name="upload_failed">Oplaai misluk: %1$d</string>
+    <string name="upload_error">Oplaai fout: %1$s</string>
+
+    <!-- Authentication error strings -->
+    <string name="sign_in_failed">Aanmelding misluk: %1$s</string>
+    <string name="firebase_auth_failed">Firebase verifikasie misluk: %1$s</string>
+    <string name="authentication_error">Verifikasie fout: %1$s</string>
+    <string name="unexpected_credential_type">Onverwagse geloofsbriewe tipe</string>
+
+    <!-- Logout strings -->
+    <string name="logout">Meld af</string>
+    <string name="logging_out">Besig om af te meld…</string>
+    <string name="logged_out_successfully">Suksesvol afgemeld</string>
+    <string name="logout_error">Afmeld fout: %1$s</string>
+
+    <!-- Splash / Session strings -->
+    <string name="loading">Laai...</string>
+    <string name="offline_try_again">Jy is vanlyn. Gaan jou verbinding na en probeer weer.</string>
+    <string name="server_error_try_again">Bediener fout. Probeer asseblief weer later.</string>
+    <string name="unexpected_error">\'n Onverwagse fout het voorgekom. Probeer asseblief weer.</string>
+
+    <!-- Navigation drawer accessibility strings -->
+    <string name="navigation_drawer_open">Maak navigasie laai oop</string>
+    <string name="navigation_drawer_close">Maak navigasie laai toe</string>
+
+    <!-- Settings strings -->
+    <string name="settings_title">Instellings</string>
+    <string name="profile_information">Profiel Inligting</string>
+    <string name="preferences">Voorkeure</string>
+    <string name="account_actions">Rekening Aksies</string>
+    <string name="push_notifications">Stoot Kennisgewings</string>
+    <string name="email_updates">E-pos Opdaterings</string>
+    <string name="edit_profile">Wysig Profiel</string>
+    <string name="change_password">Verander Wagwoord</string>
+    <string name="delete_account">Skrap Rekening</string>
+    <string name="language">Taal</string>
+    <string name="select_language">Kies Taal</string>
+    <string name="english">Engels</string>
+    <string name="afrikaans">Afrikaans</string>
+    <string name="zulu">Zulu</string>
+    <string name="language_changed_restart">Taal verander. App word herbegin...</string>
+    <string name="delete_account_confirmation">Is jy seker jy wil jou rekening skrap? Hierdie aksie kan nie ongedaan gemaak word nie.</string>
+    <string name="notification_preference">Kennisgewing voorkeure: %1$s</string>
+    <string name="email_updates_preference">E-pos opdatering voorkeure: %1$s</string>
+    <string name="apply">Pas Toe</string>
+    <string name="failed_to_change_language">Kon nie taal verander nie</string>
+    <string name="failed_to_load_profile">Kon nie profiel laai nie</string>
+    <string name="an_error_occurred">\'n Fout het voorgekom</string>
+    <string name="job_seeker">Werksoeker</string>
+    <string name="job_seeker_label">Werksoeker</string>
+    <string name="recruiter">Werwer</string>
+    <string name="recruiter_label">Werwer</string>
+    <string name="delete_account_title">Skrap Rekening</string>
+    <string name="delete">Skrap</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="account_deletion_coming_soon">Rekening verwydering kom binnekort</string>
+    <string name="failed_to_delete_account">Kon nie rekening skrap nie</string>
+    
+    <!-- Theme settings strings -->
+    <string name="theme">Tema</string>
+    <string name="theme_light">Ligte Modus</string>
+    <string name="theme_dark">Donker Modus</string>
+    <string name="theme_system">Stelsel Verstek</string>
+    <string name="select_theme">Kies Tema</string>
+    <string name="theme_changed">Tema suksesvol verander</string>
+    <string name="failed_to_change_theme">Kon nie tema verander nie</string>
+    
+    <!-- Font size settings strings -->
+    <string name="font_size">Font Grootte</string>
+    <string name="font_size_small">Klein</string>
+    <string name="font_size_medium">Medium</string>
+    <string name="font_size_large">Groot</string>
+    <string name="select_font_size">Kies Font Grootte</string>
+    <string name="font_size_changed">Font grootte suksesvol verander</string>
+    <string name="failed_to_change_font_size">Kon nie font grootte verander nie</string>
+    
+    <string name="change_photo">Verander Foto</string>
+    <string name="first_name_hint">Voornaam</string>
+    <string name="last_name_hint">Van</string>
+    <string name="phone_hint">Foon</string>
+    <string name="bio_hint">Bio</string>
+    <string name="image_upload_failed">Beeld oplaai het misluk</string>
+    <string name="profile_saved">Profiel suksesvol gestoor</string>
+    <string name="failed_to_save_profile">Kon nie profiel stoor nie</string>
+
+    <!-- Login page strings -->
+    <string name="login_title">Teken Aan</string>
+    <string name="email">E-pos</string>
+    <string name="password">Wagwoord</string>
+    <string name="login_button">Teken Aan</string>
+    <string name="register_link">Het jy nie \'n rekening nie? Registreer</string>
+    <string name="sign_in_with_google">Teken aan met Google</string>
+    <string name="or">OF</string>
+    <string name="email_required">E-pos word vereis</string>
+    <string name="password_required">Wagwoord word vereis</string>
+    <string name="authentication_failed">Verifikasie het misluk</string>
+    <string name="no_account_found">Geen rekening gevind vir hierdie aanmelding nie. Registreer asseblief eers.</string>
+    <string name="google_signin_failed">Google Aanmelding het misluk: %1$s</string>
+    <string name="unable_google_signin">Kan nie met Google aanmeld nie. Probeer asseblief weer.</string>
+    <string name="enter_password">Voer jou wagwoord in</string>
+    <string name="link_google_title">Koppel Google aan jou rekening</string>
+    <string name="link_google_message">Voer jou wagwoord in om Google aanmelding aan jou bestaande rekening te koppel.</string>
+    <string name="link">Koppel</string>
+    <string name="password_required_link">Wagwoord word vereis om te koppel.</string>
+    <string name="email_signin_failed">E-pos aanmelding het misluk. Gaan jou wagwoord na.</string>
+    <string name="linking_failed">Koppeling het misluk: %1$s</string>
+    <string name="add_password_title">Voeg e-pos &amp; wagwoord aanmelding by</string>
+    <string name="add_password_message">Stel \'n wagwoord vir jou rekening om e-pos &amp; wagwoord aanmelding te aktiveer.</string>
+    <string name="skip">Slaan oor</string>
+    <string name="save">Stoor</string>
+    <string name="password_required_save">Wagwoord word vereis.</string>
+    <string name="failed_link_password">Kon nie wagwoord koppel nie: %1$s</string>
+
+    <!-- Login page UI strings -->
+    <string name="signin_button">Teken Aan</string>
+    <string name="forgot_password">Wagwoord vergeet?</string>
+    <string name="create_account">Het jy nie \'n rekening nie? Skep een</string>
+
+    <!-- Change Password page strings -->
+    <string name="change_password_title">Verander Wagwoord</string>
+    <string name="current_password">Huidige Wagwoord</string>
+    <string name="new_password">Nuwe Wagwoord</string>
+    <string name="confirm_new_password">Bevestig Nuwe Wagwoord</string>
+    <string name="update_password">Opdateer Wagwoord</string>
+
+    <!-- Forgot Password page strings -->
+    <string name="forgot_password_title">Wagwoord Vergeet</string>
+    <string name="reset_password_title">Herstel jou wagwoord</string>
+    <string name="send_reset_email">Stuur herstel e-pos</string>
+    <string name="back">Terug</string>
+    <string name="reset_email_sent">As \'n rekening bestaan, is \'n herstel e-pos gestuur.</string>
+    <string name="failed_send_reset">Kon nie herstel e-pos stuur nie</string>
+
+    <!-- Registration page strings -->
+    <string name="join_careerconnect">Sluit aan by CareerConnect</string>
+    <string name="connect_opportunities">Koppel met geleenthede en talent</string>
+    <string name="choose_signin_method">Kies jou aanmeld metode</string>
+    <string name="continue_with_email">Gaan voort met E-pos</string>
+    <string name="continue_with_google">Gaan voort met Google</string>
+    <string name="terms_privacy">Deur voort te gaan, stem jy in tot ons Diensvoorwaardes en Privaatheidsbeleid</string>
+
+    <!-- Profile Completion page strings -->
+    <string name="complete_your_profile">Voltooi Jou Profiel</string>
+    <string name="tell_about_yourself">Vertel ons van jouself om te begin</string>
+    <string name="i_am_a">Ek is \'n:</string>
+    <string name="confirm_password">Bevestig Wagwoord</string>
+    <string name="first_name">Voornaam</string>
+    <string name="last_name">Van</string>
+    <string name="phone_number_optional">Telefoon Nommer (Opsioneel)</string>
+    <string name="location_optional">Ligging (Opsioneel)</string>
+    <string name="company_name">Maatskappy Naam</string>
+    <string name="bio_optional">Bio (Opsioneel)</string>
+    <string name="complete_profile">Voltooi Profiel</string>
+
+    <!-- Profile Completion validation strings -->
+    <string name="password_min_length">Wagwoord moet ten minste 6 karakters wees</string>
+    <string name="passwords_do_not_match">Wagwoorde stem nie ooreen nie</string>
+    <string name="first_name_required">Voornaam word vereis</string>
+    <string name="last_name_required">Van word vereis</string>
+    <string name="company_name_required">Maatskappy naam word vereis vir werwers</string>
+    <string name="invalid_phone">Voer asseblief \'n geldige telefoon nommer in</string>
+
+    <!-- Profile Completion error strings -->
+    <string name="auth_failed_retry">Verifikasie het misluk. Probeer asseblief weer.</string>
+    <string name="email_password_required">E-pos en wagwoord word vereis</string>
+    <string name="registration_failed_retry">Registrasie het misluk. Probeer asseblief weer.</string>
+    <string name="user_email_not_found">Gebruiker e-pos nie gevind nie. Meld asseblief weer aan.</string>
+    <string name="user_not_authenticated">Gebruiker nie geverifieer nie. Meld asseblief weer aan.</string>
+    <string name="failed_set_password">Kon nie wagwoord stel nie</string>
+    <string name="profile_created_successfully">Profiel suksesvol geskep!</string>
+    <string name="failed_create_profile">Kon nie profiel skep nie: %1$s</string>
+    <string name="error_occurred">\'n Fout het voorgekom: %1$s</string>
+
+    <!-- Main Activity page strings -->
+    <string name="welcome_to_careerconnect">Welkom by CareerConnect</string>
+    <string name="personalized_overview">Jou persoonlike oorsig</string>
+    <string name="recruiters_section">Werwers</string>
+    <string name="recruiters_description">Plaas nuwe rolle, bestuur jou werklysings, en hersien aansoeke alles op een plek.</string>
+    <string name="recruiters_tip">Wenk: Hou beskrywings bondig en voeg duidelike vereistes by.</string>
+    <string name="job_seekers_section">Werksoekers</string>
+    <string name="job_seekers_description">Ontdek rolle wat by jou vaardighede pas, boekmerk werk om later te vergelyk, en dien direk vanaf jou foon toe.</string>
+    <string name="job_seekers_tip">Wenke: Voltooi jou profiel vir beter passing en stel waarskuwings in Instellings om nooit nuwe plasings te mis nie.</string>
+
+    <!-- Main Activity error messages -->
+    <string name="push_notifications_unavailable_server">Let wel: Stootkennisgewings onbeskikbaar - bediener nie bereikbaar nie</string>
+    <string name="push_notifications_unavailable_network">Let wel: Stootkennisgewings onbeskikbaar - netwerkfout</string>
+    <string name="push_notifications_unavailable_auth">Let wel: Stootkennisgewings onbeskikbaar - verifikasie fout</string>
+    <string name="application_status_updated">Aansoek status opgedateer: %1$s</string>
+
+    <!-- Job Types -->
+    <string name="job_type_full_time">Voltyds</string>
+    <string name="job_type_part_time">Deeltyds</string>
+    <string name="job_type_contract">Kontrak</string>
+    <string name="job_type_internship">Internskap</string>
+
+    <!-- Experience Levels -->
+    <string name="experience_entry">Inskakelvlak</string>
+    <string name="experience_mid">Middelvlak</string>
+    <string name="experience_senior">Senior vlak</string>
+    <string name="experience_executive">Uitvoerende</string>
+
+    <!-- Job Details Activity -->
+    <string name="job_details_title">Werkbesonderhede</string>
+    <string name="job_description">Werkbeskrywing</string>
+    <string name="requirements">Vereistes</string>
+    <string name="industry">Bedryf</string>
+    <string name="benefits">Voordele</string>
+    <string name="location_label">Ligging:</string>
+    <string name="job_type_label">Werk tipe:</string>
+    <string name="work_arrangement_label">Werkreëling:</string>
+    <string name="experience_label">Ervaring:</string>
+    <string name="salary_label">Salaris:</string>
+    <string name="save_job">Stoor Werk</string>
+    <string name="apply_now">Pas Nou Toe</string>
+    <string name="saved">Gestoor</string>
+    <string name="job_saved_successfully">Werk suksesvol gestoor!</string>
+
+    <!-- All Jobs Activity -->
+    <string name="all_jobs_title">Alle Werke</string>
+    <string name="search_jobs">Soek werke...</string>
+    <string name="search">Soek</string>
+    <string name="clear">Vee Uit</string>
+
+    <!-- Bookmarked Jobs Activity -->
+    <string name="bookmarked_jobs_title">Geboekmerk Werke</string>
+    <string name="job_removed_from_saved">Werk uit gestoorde lys verwyder</string>
+
+    <!-- Job Application Activity -->
+    <string name="apply_to_job_title">Pas Toe vir Werk</string>
+    <string name="job_application">Werk Aansoek</string>
+    <string name="upload_cv_required">Laai CV op *</string>
+    <string name="cv_upload_instructions">Laai asseblief jou CV in PDF formaat op. Dit sal aan jou aansoek geheg word.</string>
+    <string name="select_cv_file">Kies CV Lêer</string>
+    <string name="cv_selected">CV Gekies</string>
+    <string name="cover_letter">Motiveringsbrief</string>
+    <string name="cover_letter_instructions">Skryf \'n motiveringsbrief om jouself voor te stel en te verduidelik waarom jy in hierdie posisie belangstel. (Opsioneel)</string>
+    <string name="submit_application">Dien Aansoek In</string>
+    <string name="application_submitted_successfully">Aansoek suksesvol ingedien!</string>
+    <string name="select_cv_error">Kies asseblief \'n CV om op te laai</string>
+
+    <!-- Job Posting Activity -->
+    <string name="job_posting_title">Werkpos</string>
+    <string name="create_job_posting_title">Skep Werkpos</string>
+    <string name="job_title_hint">Werktitel *</string>
+    <string name="job_description_hint">Werkbeskrywing *</string>
+    <string name="company_name_hint">Maatskappy Naam *</string>
+    <string name="location_hint">Ligging *</string>
+    <string name="job_type_hint">Werktipe *</string>
+    <string name="work_arrangement_hint">Werkreëling *</string>
+    <string name="experience_level_hint">Ervaringsvlak *</string>
+    <string name="min_salary_hint">Minimum Salaris</string>
+    <string name="max_salary_hint">Maksimum Salaris</string>
+    <string name="industry_hint">Bedryf (bv. Tegnologie, Finansies)</string>
+    <string name="requirements_hint">Vereistes (gekoggel of komma-geskei)</string>
+    <string name="save_draft">Stoor Konsep</string>
+    <string name="post_job">Plaas Werk</string>
+
+    <!-- Job Applications Activity -->
+    <string name="job_applications_title">Werk Aansoeke</string>
+    <string name="select_job_view_applications">Kies \'n werk om sy aansoeke te sien</string>
+    <string name="no_applications_found">Geen aansoeke gevind vir hierdie werkpos nie.</string>
+    <string name="failed_to_load_applications">Kon nie aansoeke laai nie</string>
+    <string name="view_resume">Bekyk CV</string>
+    <string name="update_status">Opdateer Status</string>
+    <string name="applied">Toegepas:</string>
+
+    <!-- Job Item Labels -->
+    <string name="posted">Gepos</string>
+    <string name="saved_date">Gestoor</string>
+    <string name="recently">onlangs</string>
+
+    <!-- Placeholder/Default Values -->
+    <string name="job_title_not_available">Werktitel Nie Beskikbaar</string>
+    <string name="company_not_available">Maatskappy Nie Beskikbaar</string>
+    <string name="location_not_available">Ligging Nie Beskikbaar</string>
+    <string name="type_not_available">Tipe Nie Beskikbaar</string>
+    <string name="level_not_available">Vlak Nie Beskikbaar</string>
+    <string name="salary_not_available">Salaris Nie Beskikbaar</string>
+    <string name="salary_not_specified">Salaris nie gespesifiseer</string>
+    <string name="applicant_name_placeholder">Aansoeker Naam</string>
+    <string name="cover_letter_preview">Motiveringsbrief voorskou...</string>
+    <string name="pending">Hangende</string>
+
+    <!-- Job Details Errors -->
+    <string name="job_id_not_provided">Werk ID nie verskaf nie</string>
+    <string name="failed_to_load_job_details">Kon nie werkbesonderhede laai nie</string>
+    <string name="failed_to_save_job">Kon nie werk stoor nie</string>
+    <string name="job_id_not_available">Werk ID nie beskikbaar nie</string>
+    <string name="job_id_not_available_for_removal">Werk ID nie beskikbaar vir verwydering nie</string>
+    <string name="failed_to_remove_job">Kon nie werk verwyder nie</string>
+
+    <!-- Job Loading Errors -->
+    <string name="failed_to_load_jobs">Kon nie werke laai nie</string>
+    <string name="search_failed">Soektog het misluk</string>
+    <string name="failed_to_load_saved_jobs">Kon nie gestoorde werke laai nie</string>
+    <string name="failed_to_upload_cv_metadata">Kon nie CV metadata oplaai nie</string>
+    <string name="failed_to_upload_cv_file">Kon nie CV lêer oplaai nie</string>
+    <string name="failed_to_submit_application">Kon nie aansoek indien nie</string>
+    <string name="retry">Probeer Weer</string>
+
+    <!-- Job Applications Activity (Recruiter) -->
+    <string name="job_info_not_provided">Werk inligting nie verskaf nie</string>
+    <string name="default_job_applications_title">Werk Aansoeke</string>
+    <string name="unable_to_load_applications">Kon nie aansoeke laai nie. Gaan asseblief jou internetverbinding na en probeer weer.</string>
+    <string name="application_details_for">Aansoekbesonderhede vir %1$s</string>
+    <string name="updating_status">Status word opgedateer...</string>
+    <string name="status_updated_to">Status opgedateer na %1$s</string>
+    <string name="failed_to_update_status">Kon nie status opdateer nie</string>
+    <string name="error_updating_status">Fout tydens status opdatering</string>
+
+    <!-- Recruiter Job Applications Activity -->
+    <string name="unable_to_load_job_applications">Kon nie werk aansoeke laai nie. Gaan asseblief jou internetverbinding na en probeer weer.</string>
+    <string name="error_loading_applications">\'n Fout het voorgekom tydens die laai van aansoeke. Probeer asseblief weer later.</string>
+    <string name="no_job_postings_found_create_first">Geen werkplasings gevind nie. Skep jou eerste werkpos om aansoeke te begin ontvang.</string>
+    <string name="create_job_posting">Skep Werkpos</string>
+    <string name="failed_to_load_job_postings">Kon nie werkplasings laai nie</string>
+
+    <!-- Application Statuses -->
+    <string name="under_review">Onder Hersiening</string>
+    <string name="shortlisted">Gekortlys</string>
+    <string name="interview_scheduled">Onderhoud Geskeduleer</string>
+    <string name="accepted">Aanvaar</string>
+    <string name="rejected">Verwerp</string>
+    <string name="update_application_status">Opdateer Aansoek Status</string>
+    <string name="applications_count">%1$d aansoeke</string>
+</resources>
